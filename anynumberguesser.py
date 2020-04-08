@@ -32,16 +32,17 @@ def cinput():
 
 print('''
 I'll guess any positive natural number you think of. Just keep in mind
-that the bigger this number universe is, more steps it will take to
-guess your number.
+that the bigger the number is, more steps it will take to
+find it out.
 
->ADVICE<: remember that in math no number is "bigger than" itself, so the
-answer must be "no"(n) if it's the case.
+>ADVICE<: remember that in math NO number is "bigger than" ITSELF, so the
+answer must be "no" if the program uses exactly your number to ask the
+question.
 
 >ADVICE2<: if you answer the "bigger or not" question wrongly, there is
 no turning back, you'll have to restart the program. So, in order to
-avoid errors, it's advised to write down your imagined number, spetially
-if it's big or looks scrabbled.
+avoid errors, it's advised to write down your imagined number, specially
+if it's big or have a scrabbled like pattern.
 
 Let's begin.
 ''')
