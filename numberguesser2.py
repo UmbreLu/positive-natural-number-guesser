@@ -31,28 +31,19 @@ def cinput():
 #-------------------------------------------------------
 
 print('''
-I'll guess any positive natural number you think of. But in order to
-do so, you'll have to give me a big number to limit the possibilities, as
-positive natural numbers are infinite.
+I'll guess any positive natural number you think of. Just keep in mind
+that the bigger this number universe is, more steps it will take to
+guess your number.
 
-There haven't to be any relationship between this reference number and the
-secret number you'll think of, other than that the big number must be bigger
-than the secret one. So your context number can be something really big like
-"1000000" or more and your secret one something rather small like "127" or
-anything in between 1 and the big number.
-
-Just keep in mind that the bigger this number universe is, more steps I'll
-take to guess your number.
-
-Advice: remember that in math no number is "bigger than" itself, so the
+>ADVICE<: remember that in math no number is "bigger than" itself, so the
 answer must be "no"(n) if it's the case.
 
+>ADVICE2<: if you answer the "bigger or not" question wrongly, there is
+no turning back, you'll have to restart the program. So, in order to
+avoid errors, it's advised to write down your imagined number, spetially
+if it's big or looks scrabbled.
+
 Let's begin.
-
-Start thinking on your secret number. Try writing it down somewhere.
-
-Now think on the bigger number that contains your secret number. Which number
-is your big number?
 ''')
 #input_number = ninput()
 
